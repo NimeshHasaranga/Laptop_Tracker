@@ -102,16 +102,6 @@ laptop-tracker/
 
 ---
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.  
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.  
-
----
-
 ### 👨‍💻 Author
 **Your Name Here**  
-🔗 [GitHub](https://github.com/your-username) | 💼 [LinkedIn](https://linkedin.com/in/your-profile)
+🔗 [GitHub](https://github.com/NimeshHasaranga) | 💼 [LinkedIn](https://linkedin.com/in/your-profile)
