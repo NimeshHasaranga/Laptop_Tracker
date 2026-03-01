@@ -81,6 +81,20 @@ Built with **MongoDB, Express.js, React, and Node.js**, it provides a powerful i
 
 ## 📸 Screenshots & Features
 
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 110017" src="https://github.com/user-attachments/assets/efb9c558-e656-4104-b4fd-67d97a0e8c9b" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 105954" src="https://github.com/user-attachments/assets/2c1c5b4c-768d-4181-94eb-bae7b72b3ce3" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 105937" src="https://github.com/user-attachments/assets/ed97c493-b795-487d-8103-7b0c4b8fd5aa" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 105916" src="https://github.com/user-attachments/assets/b7d23099-3f6a-4adc-ac5f-7db7373a2e7a" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 105854" src="https://github.com/user-attachments/assets/43c4e940-6b0c-4835-bb9d-bea22d6bf1cd" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 105411" src="https://github.com/user-attachments/assets/efe79c20-915d-4756-8d51-9f4ea392755c" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 110234" src="https://github.com/user-attachments/assets/6648ab23-ab5f-46b3-96cb-6be4a7f4aea9" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 110218" src="https://github.com/user-attachments/assets/1a1f9e9f-a9d4-426e-ba41-4724b22bca8d" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 110149" src="https://github.com/user-attachments/assets/3032d4c1-df4e-4cc7-8a81-b254ed4583f9" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-01 110044" src="https://github.com/user-attachments/assets/6602bcc0-6e45-4539-a7df-d1c08bca5bc4" />
+
+
+
 ### **Dashboard Overview**
 - **Admin Dashboard**: Comprehensive analytics with 9 chart types
 - **User Dashboard**: Staff-focused metrics and quick actions
