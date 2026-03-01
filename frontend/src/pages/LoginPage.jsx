@@ -86,7 +86,7 @@ export default function LoginPage() {
 
           <input
             type="password"
-            placeholder="TA Number"
+            placeholder="log Number"
             value={form.taNumber}
             onChange={(e) => setForm({ ...form, taNumber: e.target.value })}
             style={styles.input}

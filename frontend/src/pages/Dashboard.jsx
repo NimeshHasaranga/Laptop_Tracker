@@ -1,21 +1,36 @@
 import { useEffect, useState } from "react";
 import { getDashboardApi } from "../api/laptops";
+import AdminDashboard from "./AdminDashboard";
+import UserDashboard from "./UserDashboard";
+
+const getRole = () => localStorage.getItem("role") || "staff";
 
 export default function Dashboard() {
   const [data, setData] = useState(null);
-  useEffect(() => { getDashboardApi().then(setData); }, []);
-  if (!data) return <div className="card">Loading...</div>;
+  const [loading, setLoading] = useState(true);
 
-  const { totals } = data;
-  return (
-    <>
-      <div className="kpis">
-        <div className="kpi"><div>Total</div><h2>{totals.total}</h2></div>
-        <div className="kpi"><div>Received</div><h2>{totals.received}</h2></div>
-        <div className="kpi"><div>In Setup</div><h2>{totals.inSetup}</h2></div>
-        <div className="kpi"><div>Configured</div><h2>{totals.configured}</h2></div>
-        <div className="kpi"><div>Handed Over</div><h2>{totals.handed}</h2></div>
-      </div>
-    </>
-  );
+  useEffect(() => { 
+    const loadDashboard = async () => {
+      try {
+        const response = await getDashboardApi();
+        setData(response);
+      } catch (error) {
+        console.error('Error loading dashboard:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    loadDashboard();
+  }, []);
+
+  if (loading) return <div className="card">Loading dashboard...</div>;
+  if (!data) return <div className="card">Error loading dashboard</div>;
+
+  // Render appropriate dashboard based on user role
+  if (getRole() === "admin") {
+    return <AdminDashboard />;
+  } else {
+    return <UserDashboard />;
+  }
 }
